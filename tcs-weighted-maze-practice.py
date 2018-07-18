@@ -6,7 +6,7 @@ def main():
     ip = [[0 for i in range (n)] for j in range (n)]
 
     for i in range (0, n, +1):
-        a = (list (map (int, sys.stdin.readline ().strip ().split (' '))))
+        a = (list (map (int, sys.stdin.readline ().strip ().split (','))))
         for j in range (0, len (a), +1):
             ip[i][j] = a[j]
 
