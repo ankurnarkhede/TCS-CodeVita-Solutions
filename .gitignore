@@ -103,11 +103,16 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+
 #custom
+
 .idea
 *.out
 inputs.py
 temp.py
 temp1.py
 temp2.py
+
+temp.txt
+temp1.txt
 
