@@ -108,4 +108,6 @@ venv.bak/
 *.out
 inputs.py
 temp.py
+temp1.py
+temp2.py
 
