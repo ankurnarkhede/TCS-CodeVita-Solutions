@@ -17,12 +17,10 @@ def main():
 
     a = (list (map (int, sys.stdin.readline ().strip ().split (' '))))
 
-    for i in range(0,r,+1):
-        low,high = (map (int, sys.stdin.readline ().strip ().split (' ')))
-        print(len(list(x for x in a if low <= x <= high)))
-
+    for i in range (0, r, +1):
+        low, high = (map (int, sys.stdin.readline ().strip ().split (' ')))
+        print (len (list (x for x in a if low <= x <= high)))
 
 
 if __name__ == '__main__':
     main ()
-
